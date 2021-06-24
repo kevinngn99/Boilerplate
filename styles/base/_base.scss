@@ -1,0 +1,48 @@
+@use '../utils/functions' as f;
+@use '../utils/variables' as v;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 20px;
+  color: black;
+}
+
+a,
+button,
+input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+input,
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+svg {
+  fill: currentColor;
+}
